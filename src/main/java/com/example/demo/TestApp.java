@@ -13,7 +13,7 @@ public class TestApp {
 	
 	@RequestMapping(value = "/welcome")
 	public String welcome() {
-		logger.info("Hello This is Spring Boot Rest Api");
+		logger.info("Hello This is Spring Boot Rest Api!");
 		return "Welcome in Java world";
 	}
 
